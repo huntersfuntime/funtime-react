@@ -9,7 +9,7 @@ export default class Docs extends React.Component {
     this.state = {
       route: window.location.hash.substr(1)
     };
-  } // since this is for documentation just using the url hash for routing
+  }
 
   componentDidMount() {
     window.addEventListener("hashchange", () => {
