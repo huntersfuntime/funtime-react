@@ -4,9 +4,7 @@ import PropTypes from "prop-types";
 class ProgressBar extends React.Component {
   static propTypes = {
     percent: PropTypes.number.isRequired,
-    // Bar width */
     width: PropTypes.number.isRequired,
-    // Bar height */
     height: PropTypes.number
   };
 
