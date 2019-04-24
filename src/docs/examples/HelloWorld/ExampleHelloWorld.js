@@ -1,5 +1,5 @@
 import React from "react";
-import HelloWorld from "funtime-react/HelloWorld/HelloWorld";
+import HelloWorld from "funtime-react/HelloWorld";
 
 /** Custom message */
 export default function ExampleHelloWorld() {
