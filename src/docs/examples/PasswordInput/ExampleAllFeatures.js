@@ -26,7 +26,7 @@ class ExampleAllFeatures extends Component {
           value={this.state.password}
           minLength={8}
           placeholder="Enter password"
-          showVsibilityToggle
+          sshowVisibilityToggle
           quality={this.getQuality()}
           {...this.props}
         />
